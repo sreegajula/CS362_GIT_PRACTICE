@@ -6,3 +6,4 @@ def randompass(num):
     password = ''.join(random.choice(ascii_string) for i in range(num)) ## reference from pynative
     print(password)
 
+randompass(10)
