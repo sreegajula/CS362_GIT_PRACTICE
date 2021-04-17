@@ -6,3 +6,4 @@ def divisor(num):
         if num % i == 0:
             print(i)
 
+divisor(100)
